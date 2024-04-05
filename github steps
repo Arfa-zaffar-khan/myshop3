@@ -1,0 +1,19 @@
+set username:git config --global user.name "Your Name"
+set email:git config --global user.email "your.email@example.com"
+check username:git config --global user.name
+check email:git config --global user.email
+
+1)create repo on github
+2)init your local repo:git init
+3)check status of your repo:git status
+4)add unstage files to staged area
+5)again check status
+6)add commit :git commit -m "any msg"
+7)check git log:git log
+8)check branch:git branch
+9)change master to main branch:git branch -M main
+10)check again branch
+11)set remote origin: git remote add origin https://github.com/Arfa-zaffar-khan/myshop3.git
+
+12)push on github:git push -u origin main
+
