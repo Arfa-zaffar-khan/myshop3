@@ -19,7 +19,7 @@ const menuItems = [
   },
 ]
 
-export default function Navbar() {
+export default function Navbar({handlesearch}) {
   const [isMenuOpen, setIsMenuOpen] = React.useState(false)
 
   const toggleMenu = () => {
@@ -60,7 +60,7 @@ export default function Navbar() {
             ))}
           </ul>
         </div>
-       <Search />
+       <Search handlesearch={handlesearch}/>
         <div className="hidden lg:block">
           <button
             type="button"
